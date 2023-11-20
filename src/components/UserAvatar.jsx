@@ -9,13 +9,13 @@ export function UserAvatar({ user }) {
         <img
           src={avatar}
           alt={user?.firstName}
-          className="w-10 h-10 rounded-full object-cover border-4 border-blue-400"
+          className="w-10 h-10 rounded-full object-cover"
         />
       ) : (
         <img
           src={DefaultUserAvatar}
           alt={user?.firstName}
-          className="w-10 h-10 rounded-full object-cover border-4 border-blue-400"
+          className="w-10 h-10 rounded-full object-cover"
         />
       )}
     </span>
