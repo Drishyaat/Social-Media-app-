@@ -60,7 +60,7 @@ export function ProfileDetails({ user, totalPosts }) {
         <div className="flex flex-row justify-between items-center p-4">
           <img
             src={profileAvatar}
-            className="w-20 h-20 rounded-full object-cover border-4 border-blue-400"
+            className="w-20 h-20 rounded-full object-cover "
           />
 
           <div className="flex flex-row">
