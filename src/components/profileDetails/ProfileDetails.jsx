@@ -83,7 +83,7 @@ export function ProfileDetails({ user, totalPosts }) {
               <div>
                 {userAlreadyFollowing ? (
                   <button
-                    className="bg-teal-400 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded mr-2"
+                    className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded mr-2"
                     onClick={() =>
                       handleBtnsClick(400, unfollowUserHandler, _id, token)
                     }
